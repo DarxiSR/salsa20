@@ -1,19 +1,19 @@
 try:
     import sys
 except Exception:
-    raise ImportError('[-] Error of importing system lib!\n')
+    raise ImportError('[-] Ошибка импортирования библиотеки sys!\n')
 try:
     import GUI
 except Exception:
-    raise ImportError('[-] Error of importing custom GUI library!\n')
+    raise ImportError('[-] Ошибка импортирования библиотеки GUI!\n')
 try:
     from Salsa20 import Salsa20
 except Exception:
-    raise ImportError('[-] Error of importing custom cipher Salsa20 library!\n')
+    raise ImportError('[-]  Ошибка импортирования библиотеки Salsa20!\n')
 try:
     from PyQt5 import QtWidgets
 except Exception:
-    raise ImportError('[-] Error of importing PyQt5 library!\n')
+    raise ImportError('[-]  Ошибка импортирования библиотеки PyQt5!\n')
 
 class __core(QtWidgets.QMainWindow, GUI.Ui_MainWindow):
     def __init__(self):
