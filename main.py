@@ -9,11 +9,11 @@ except Exception:
 try:
     from Salsa20 import Salsa20
 except Exception:
-    raise ImportError('[-]  Ошибка импортирования библиотеки Salsa20!\n')
+    raise ImportError('[-] Ошибка импортирования библиотеки Salsa20!\n')
 try:
     from PyQt5 import QtWidgets
 except Exception:
-    raise ImportError('[-]  Ошибка импортирования библиотеки PyQt5!\n')
+    raise ImportError('[-] Ошибка импортирования библиотеки PyQt5!\n')
 
 class __core(QtWidgets.QMainWindow, GUI.Ui_MainWindow):
     def __init__(self):
