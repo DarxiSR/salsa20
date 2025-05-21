@@ -2,12 +2,6 @@
 # INFORMATION #
 ------------------
 
-##  Contact 
- * Email: darxis.exception@vfemail.net
- * Telegram: @Darxis
- * Jabber: Darxis@exploit.im
- * HackTheBox: https://www.hackthebox.eu/profile/37928
-
 Salsa20 is a family of stream ciphers designed by Daniel J. Bernstein in 2005. Stream ciphers are a type of encryption algorithm that encrypts data on a bit-by-bit basis, as opposed to block ciphers that encrypt data in fixed-size blocks.
 
 ![image info](./banner.png)
